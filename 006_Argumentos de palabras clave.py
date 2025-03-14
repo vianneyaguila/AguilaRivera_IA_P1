@@ -1,2 +1,2 @@
-print ("Mi apellido es" , "Aguila." , end=" ")
-print ("Vianney Aguila.")
+print ("Mi" , "nombre" ,  "es" , sep = "_" , end = "*")
+print ("Vianney" , "Aguila" , sep = "*" , end = "* \n ")
