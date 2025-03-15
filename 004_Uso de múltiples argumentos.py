@@ -1,1 +1,0 @@
-print ("El zapato negro" , "esta" , "fuera de su lugar")
