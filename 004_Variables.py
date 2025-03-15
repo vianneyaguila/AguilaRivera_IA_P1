@@ -52,3 +52,32 @@ millas_a_kilometros = Millas * 1.61
 kilometros_a_millas = Kilometros / 1.61
 print( Millas , "Millas", round(millas_a_kilometros , 2) , "Kilometros")
 print(Kilometros , "Kilometros", round(kilometros_a_millas, 2) ,"Millas")
+
+X = 0
+x = float( X )
+y = 3 * x ** 3 -2 * x ** 2 + 3 * x -1
+print("y = ", y)
+
+x = 1
+x = float ( x )
+y = 3 * x ** 3 -2 * x ** 2 + 3 * x - 1
+print("y =", y)
+
+x = -1
+x = float ( x )
+y = 3 * x ** 3 - 2 * x ** 2 + 3 * x -1 
+print(" y =" , y)
+
+#Cuestionario de sección
+var6 = 2
+var6 = 3
+print(var6)
+
+a1 = '1'
+b1 = "1"
+print(a1 + b1)
+
+a2 = 6
+b2 = 3
+a2 /= 2 * b2
+print(a2)
