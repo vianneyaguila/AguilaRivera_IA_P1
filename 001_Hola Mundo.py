@@ -8,7 +8,7 @@ def despedir(nombre): #Se define la función con el nomnre de despedir y un argu
 
     despedir("Mauricio") #Se llama a la función con un argumento específico 
 
-#Carcteres de escape
+#Caracteres de escape
 print("El zapato de Natalie \nesta fuera de su lugar.")
 print()
 print("Mi cargador ya no \nfunciona.")
