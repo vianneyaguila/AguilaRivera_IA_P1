@@ -36,9 +36,27 @@
 #print ("+" + 10 * "-" + "+") 
 
 # LAB entradas y salidad simples
-a2 = float( input(" Agregue el primer valor: "))
-b2 = float( input(" Agregue el seguno valor: "))
-print ("Suma: ", a2 + b2)
-print ("Resta: ", a2 - b2)
-print ("Multiplicación: ", a2 * b2)
-print ("División: ", a2 / b2)
+#a2 = float( input(" Agregue el primer valor: "))
+#b2 = float( input(" Agregue el seguno valor: "))
+#print ("Suma: ", a2 + b2)
+#print ("Resta: ", a2 - b2)
+#print ("Multiplicación: ", a2 * b2)
+#print ("División: ", a2 / b2)
+
+# Operadores de expresiones LAB
+#x1 = float( input("Ingresa el valor:"))
+#ry = 1 /( x1 + 1 / ( x1 + 1  / ( x1 + 1 / x1 )))
+#print ("El resultado de ry es: ", ry)
+
+# LAB Operadores y Expresiones LAB 2
+Hora = int ( input ("Tiempo de inicio en horas: "))
+Min = int ( input ( "Tiempo de inicio en minutos: "))
+D_evento = int ( input ("Duración del evento: "))
+
+Hora = Hora + Min // 60
+Min = Min + D_evento
+
+Min = Min % 60
+Hora = Hora % 24
+print (Hora, ":", Min, sep="")
+
