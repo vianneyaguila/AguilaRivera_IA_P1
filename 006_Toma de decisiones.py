@@ -28,3 +28,31 @@ if Num3 > Numero_mayor:
     Numero_mayor = Num3
 print("El número mayor es: ", Numero_mayor)
 
+nombre = input("Agrega el nombre de la flor: ")
+if nombre == "Spathiphyllum":
+ print(" Sí -¡Spatiphyllum es la mejor flor!")
+elif nombre == "spathiphyllum":
+   print("No, quiero una Spathiphyllu grande")
+else:
+   print("Spathiphyllum! No", nombre + "!") 
+
+#Fundamentos de instrucción if-else
+income = float(input("Enter de annual income: "))
+if income < 85528:
+   tax = income * 0.18 -556.02
+tax = round(tax, 0)
+print("The tax is: ", tax, "thalers1" )
+
+# Fundamentos de la declaración de if-elif-else
+year = int(input("Enter a year: "))
+if year < 1582:
+   print("Not within the Gregorian calendar period")
+else:
+   if year % 4 !=0:
+      print("Common Year")
+   elif year % 100 != 0:
+      print("Leap year")
+   elif year % 400 != 0:
+      print("Common year")
+   else:
+      print("Leap yaer")
