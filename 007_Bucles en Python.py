@@ -47,14 +47,71 @@ while True:
     num_us = int(input("Ingresa un número: "))
 
     if num_us == num_sec:
-        print("¡"
-        ""
-        ""
-        "Bien hecho, muggle! Ahora eres libre")
+        print("¡Bien hecho, muggle! Ahora eres libre")
         break
     else: 
-    print("Ja, ja! ¡Estas atrapado en mi circulo!")
+       print("Ja, ja! ¡Estas atrapado en mi circulo!")
 
+#Repetir su código con for
+i = 0
+while i < 100:
+    i += 1
 
+for i in range(100):
+    pass
+for i in range(10):
+    print("El valor de i es actualmente", i)
 
+# El rango de invocación puede estar equipada con dos argumentos, no solamente con uno
+#Ejemplo
+for i in range(2 , 8):
+    print("El valor de i actualmente es: ", i)
+
+for i in range( 2, 8, 3):
+    print("El valor de i actualmente es: ", i)
+    # el tercer arguemnto es un incremento: se trata de un valor agregado
+
+for i in range(1 , 1):
+    print("El valor de i actualmente es: ", i)
+    # El valor generado por el rango debe ordenarse en orden ascendente. 
+
+# Ejemplo que realiza algunas potencias 
+pot = 1
+for expo in range(16):
+    print("2 to the power of", expo "is", pot)
+    pot *= 2
+
+import time
+for i in range(1 , 6):
+    print(f"{i} Mississippi")
+    time.sleep(1)
+print("Ready or nor, here I come!")
+
+print("The brake intruction: ")
+for i in range(1 , 6):
+    if i == 3:
+        break
+    print("Inside the loop.", i )
+    print("Outside the loop.")
+    print("\n La instrucción de continuar: ")
+    for i in range(1 , 6):
+        if i == 3:
+            continue
+        print("Inside the loop", i)
+        print("Outside the loop.")
+
+largest_num = -99999999
+counter = 0
+while True:
+    number = int(input("Enter a number or type -1 to end the program: "))
+    if number == -1: 
+        break
+    counter += 1
+    if number > largest_num:
+        largest_num = number
+
+    if counter != 0:
+        print("The largest number is", largest_num)
+    else:
+        print("You haven't entered any number.")
 
