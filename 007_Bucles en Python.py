@@ -115,3 +115,11 @@ while True:
     else:
         print("You haven't entered any number.")
 
+palabra_usuario = input("Ingresa una palabra:")
+palabra_usuario = palabra_usuario.upper()
+for letra in palabra_usuario:
+    if letra in "AEIOU":
+        continue
+    print(letra)
+
+ 
